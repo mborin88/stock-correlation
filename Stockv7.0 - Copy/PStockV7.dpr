@@ -1,0 +1,15 @@
+program PStockV7;
+
+uses
+  Vcl.Forms,
+  UStockObjectsv7 in 'UStockObjectsv7.pas' {StockProgram},
+  UStock7 in 'UStock7.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TStockProgram, StockProgram);
+  Application.Run;
+end.

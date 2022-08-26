@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/14 19:52:55.000.033,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/15 17:57:06.000.969,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/17 10:26:05.000.180,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 16:49:08.000.874,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 19:55:34.000.620,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 20:12:42.000.988,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/19 12:54:23.648,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/19 15:32:22.080,E:\Mikey Stuff\Stock Prototype\Api\UStockApi.pas=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/19 15:32:22.080,E:\Mikey Stuff\Stock Prototype\Api\UStockApi.dfm=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/02/19 15:32:38.252,E:\Mikey Stuff\Stock Prototype\Api\PStockApi.dproj=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

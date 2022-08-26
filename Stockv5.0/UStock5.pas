@@ -1,0 +1,165 @@
+unit UStock4;
+
+interface
+
+uses System.SysUtils;
+
+type TData= class
+  private
+    Date: string;
+    Open, High, Low, Close,  AdjClose: real;
+    Volume: integer;
+  public
+    constructor Create(Line:string; count: integer);
+    function GetDate(): string;
+    function GetOpen(): real;
+    function GetHigh(): real;
+    function GetLow(): real;
+    function GetClose(): real;
+    function GetAdjClose(): real;
+    function GetVolume(): integer;
+end;
+  TShare= array of TData;
+
+  TStock = class
+  private
+    FData: TShare;
+    FSize: integer;
+  public
+    constructor Create(fileName: string; arrayLength: integer);
+    function Display(value: integer): string;
+    function GetSize(): integer;
+    function GetData(var i:integer):TData;
+
+  end;
+implementation
+
+{ TStock }
+
+constructor TStock.Create(fileName: string; arrayLength: integer);
+  var
+  i,n, count: integer;
+  line: string;
+  myFile: textfile;
+begin
+FSize:= arrayLength;
+SetLength(FData, FSize);
+
+if fileexists(fileName)=True then
+  begin
+    assign(myFile, fileName);
+    reset(myFile);
+    i:=0;
+    while not eof(myFile) do
+      begin
+        readln(myFile, line);
+        if length(line)>0 then
+          begin
+            n:=0;
+
+            count:=length(line);
+            FData[i]:= TData.Create(Line, count);
+            inc(i);
+          end;
+
+      end;
+    closefile(myFile);
+  end;
+
+end;
+
+function TStock.Display(value: integer): string;
+begin
+  result:=(FData[value].GetDate()+', '+floattostr(FData[value].GetOpen())+', '+
+  floattostr(FData[value].GetHigh())+ ', '+floattostr(FData[value].GetLow())+', '+
+  floattostr(FData[value].GetClose())+', '+ floattostr(FData[value].GetAdjClose())+ ', '+
+  inttostr(FData[value].GetVolume()));
+end;
+
+function TStock.GetData(var i: integer): TData;
+begin
+result := FData[i];
+end;
+
+function TStock.GetSize: integer;
+begin
+result:= FSize;
+end;
+
+{ TData }
+
+
+constructor TData.Create(Line:string; count: integer);
+var
+  s,i: integer;
+  chunk: string;
+
+begin
+  i:=0;
+
+  for s := 1 to count do
+    begin
+      if (line[s]=',') or (s=count) then
+        begin
+          case i of
+            0:
+              Date:= chunk;
+            1:
+              Open:= strtofloat(chunk);
+            2:
+              High:= strtofloat(chunk);
+            3:
+              Low:= strtofloat(chunk);
+            4:
+              Close:= strtofloat(chunk);
+            5:
+              AdjClose:= strtofloat(chunk);
+            6:
+              Volume:= strtoint(chunk);
+          end;
+          inc(i);
+          chunk:='';
+        end
+      else
+        begin
+          chunk:= chunk+line[s];
+        end;
+    end;
+end;
+
+function TData.GetAdjClose(): real;
+begin
+  result:= AdjClose;
+end;
+
+function TData.GetClose(): real;
+begin
+  result:= Close;
+end;
+
+function TData.GetDate(): string;
+begin
+result:= Date;
+end;
+
+function TData.GetHigh(): real;
+begin
+  result:= High;
+end;
+
+function TData.GetLow(): real;
+begin
+  result:= Low;
+end;
+
+function TData.GetOpen(): real;
+begin
+  result:= Open;
+end;
+
+function TData.GetVolume(): integer;
+begin
+  result:= Volume;
+end;
+
+end.

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="hw4lkb67m2r_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::2uju1o6lgtk_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockXV.TStock" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockXV.TShare" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockXV.TData" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockXV.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::6fhos3l2lhh_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:PStockXV.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::d4nt1i3xr3k_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockObjectsXV.TStockAverage" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockObjectsXV.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockObjectsXV.TFileNames" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockObjectsXV.TCorrStocks" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockObjectsXV.TPulledStocks" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockObjectsXV.TArrayRecord" />
+      <reference referencedUin="delphi:e_class:src:PStockXV:UStockObjectsXV.TStockProgram" />
+    </reference>
+    <reference referencedUin="design:view:::a5awv32skms_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

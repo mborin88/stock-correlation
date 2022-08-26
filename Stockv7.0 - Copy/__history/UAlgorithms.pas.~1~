@@ -1,0 +1,18 @@
+unit UAlgorithms;
+
+interface
+
+type TAlgorithm = class
+  private
+  {Private declarations}
+  public
+  {Public Declarations}
+  constructor Create();
+  function correlationCoeffcient(): real;
+end;
+
+
+
+implementation
+
+end.

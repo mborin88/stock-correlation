@@ -1,0 +1,23 @@
+unit UAlgorithms;
+
+interface
+
+type TAlgorithm = class
+  private
+  {Private declarations}
+  public
+  {Public Declarations}
+  constructor Create();
+  function correlationCoeffcient(A: array of real; B: array of real): real;
+end;
+
+implementation
+
+{ TAlgorithm }
+
+constructor TAlgorithm.Create;
+begin
+
+end;
+
+end.

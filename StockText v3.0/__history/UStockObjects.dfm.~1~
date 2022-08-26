@@ -1,0 +1,58 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 342
+  ClientWidth = 508
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Graph: TChart
+    Left = 48
+    Top = 8
+    Width = 400
+    Height = 250
+    Title.Text.Strings = (
+      'Google')
+    View3D = False
+    TabOrder = 0
+    DefaultCanvas = 'TGDIPlusCanvas'
+    PrintMargins = (
+      15
+      19
+      15
+      19)
+    ColorPaletteIndex = 13
+    object Series1: TFastLineSeries
+      LinePen.Color = 3513587
+      XValues.Name = 'X'
+      XValues.Order = loAscending
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+  end
+  object CreateGraph: TButton
+    Left = 328
+    Top = 288
+    Width = 97
+    Height = 41
+    Caption = 'Make graph'
+    TabOrder = 1
+    OnClick = CreateGraphClick
+  end
+  object PullDatBttn: TButton
+    Left = 216
+    Top = 288
+    Width = 89
+    Height = 41
+    Caption = 'PullDatBttn'
+    TabOrder = 2
+    OnClick = PullDatBttnClick
+  end
+end

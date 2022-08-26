@@ -1,0 +1,104 @@
+program StockTxt;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+type
+  TData= array [1..251,1..7] of string;
+var
+FileName: string;
+myfile: textfile;
+n, s: integer;
+data: TData;
+AVG: real;
+
+function DayMovingAverage(days: integer; value: integer): integer;
+var
+i: integer;
+total: real;
+begin
+//Take an integer value from the user take the last days by using the i value of the
+total:=0;
+for i := 1 to days do
+  begin
+    total:=(total+strtoFloat(data[(length(data)-(i-1))][value]));
+    writeln(data[(length(data)-(i-1))][value]);
+  end;
+AVG:= total/days;
+writeln('total: ', FloattostrF(total,ffNumber, 8,5));
+writeln('Avg:', FloattostrF(AVG, ffNumber, 8, 5));
+end;
+
+procedure PullData();
+var
+  i, count: integer;
+  line, chunk: string;
+  first: boolean;
+begin
+    i:=1;
+    chunk:= '';
+    first:= True;
+    while not eof(myFile) do
+      begin
+        readln(myFile, line);
+        if length(line)>0 then
+          begin
+            n:=1;
+
+            if first=True then
+              count:=length(line);
+
+            for s := 1 to count do
+              begin
+                if (line[s]=',') or (s=count) then
+                  begin
+                    data[i][n]:= chunk;
+                    inc(n);
+                    chunk:='';
+                  end
+                else
+                  begin
+                    chunk:= chunk+line[s];
+                  end;
+              end;
+            inc(i);
+          end;
+
+      end;
+    closefile(myfile);
+end;
+
+procedure DisplayFile();
+begin
+  for n := 1 to 252 do
+    begin
+      write(n,': ');
+      for s := 1 to 7 do
+        begin
+          write(data[n][s]);
+          write(',');
+        end;
+      readln;
+      writeln;
+    end;
+  readln;
+end;
+
+begin
+//Data, Open, High, Low, Close, Adj Close, Volume
+writeln('Commence');
+writeln('Enter name of the file you want to read');
+readln(FileName);
+assign(myFile, FileName);
+
+reset(myfile);
+PullData();
+//DisplayFile();
+AVG := DayMovingAverage(20, 2);
+writeln(AVG);
+readln;
+end.

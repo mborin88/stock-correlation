@@ -1,0 +1,15 @@
+program StockV6;
+
+uses
+  Vcl.Forms,
+  UStockObjectsv6 in 'UStockObjectsv6.pas' {StockProgram},
+  UStock6 in 'UStock6.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TStockProgram, StockProgram);
+  Application.Run;
+end.

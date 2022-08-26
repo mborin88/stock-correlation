@@ -1,0 +1,83 @@
+unit UStockv2;
+
+interface
+
+type TData= class
+  private
+    Date: string;
+    Open, High, Low, Close,  AdjClose: real;
+    Volume: integer;
+  public
+    constructor Create();
+    function GetDate(value: integer): string;
+    function GetOpen(value: integer): real;
+    function GetHigh(value: integer): real;
+    function GetLow(value: integer): real;
+    function GetClose(value: integer): real;
+    function GetAdjClose(value:integer): real;
+    function GetVolume(value:integer): integer;
+end;
+  TShare= array of TData;
+
+  TStock = class
+  private
+    FData: TShare;
+    FSize: integer;
+  public
+    constructor Create(fileName: string);
+
+
+  end;
+implementation
+
+{ TStock }
+
+constructor TStock.Create(fileName: string);
+begin
+SetLength(FData, 250);
+
+end;
+
+{ TData }
+
+constructor TData.Create;
+begin
+
+end;
+
+function TData.GetAdjClose(value: integer): real;
+begin
+
+end;
+
+function TData.GetClose(value: integer): real;
+begin
+
+end;
+
+function TData.GetDate(value: integer): string;
+begin
+
+end;
+
+function TData.GetHigh(value: integer): real;
+begin
+
+end;
+
+function TData.GetLow(value: integer): real;
+begin
+
+end;
+
+function TData.GetOpen(value: integer): real;
+begin
+
+end;
+
+function TData.GetVolume(value: integer): integer;
+begin
+
+end;
+
+end.

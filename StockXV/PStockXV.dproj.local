@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/14 19:52:55.000.033,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/15 17:57:06.000.969,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/17 10:26:05.000.180,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 16:49:08.000.874,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 19:55:34.000.620,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 20:12:42.000.988,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/20 13:59:34.000.452,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/20 14:00:43.000.197,=C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/02/20 14:02:38.000.256,C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit2.pas=E:\Mikey Stuff\Stock Prototype\StockXV\UStockXV.pas</Transaction>
+    <Transaction>2019/02/20 14:03:45.000.239,C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\Mikey Stuff\Stock Prototype\StockXV\UStockObjectsXV.dfm</Transaction>
+    <Transaction>2019/02/20 14:03:45.000.239,C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\Mikey Stuff\Stock Prototype\StockXV\UStockObjectsXV.pas</Transaction>
+    <Transaction>2019/02/20 14:03:57.000.521,C:\Users\Hawk\Documents\Embarcadero\Studio\Projects\Project1.dproj=E:\Mikey Stuff\Stock Prototype\StockXV\PStockXV.dproj</Transaction>
+    <Transaction>2019/03/01 20:58:28.000.395,=D:\Mikey Stuff\Stock Prototype\StockXV\ModelSupport_PStockXV\default.txaPackage</Transaction>
+    <Transaction>2019/03/01 20:58:43.000.259,=D:\Mikey Stuff\Stock Prototype\StockXV\ModelSupport_PStockXV\default.txvpck</Transaction>
+    <Transaction>2019/03/01 20:58:44.000.897,=D:\Mikey Stuff\Stock Prototype\StockXV\ModelSupport_PStockXV\UStockXV\default.txvpck</Transaction>
+    <Transaction>2019/03/01 20:58:44.000.968,=D:\Mikey Stuff\Stock Prototype\StockXV\ModelSupport_PStockXV\PStockXV\default.txvpck</Transaction>
+    <Transaction>2019/03/01 20:58:44.000.790,=D:\Mikey Stuff\Stock Prototype\StockXV\ModelSupport_PStockXV\UStockObjectsXV\default.txvpck</Transaction>
+    <Transaction>2019/03/01 20:58:53.000.278,=D:\Mikey Stuff\Stock Prototype\StockXV\ModelSupport_PStockXV\PStockXV\default.txaPackage</Transaction>
+    <Transaction>2019/03/01 20:58:57.000.675,=D:\Mikey Stuff\Stock Prototype\StockXV\ModelSupport_PStockXV\UStockObjectsXV\default.txaPackage</Transaction>
+    <Transaction>2019/03/01 20:59:56.000.793,=D:\Mikey Stuff\Stock Prototype\StockXV\ModelSupport_PStockXV\UStockXV\default.txaPackage</Transaction>
+    <Transaction>2019/03/06 10:28:56.000.443,=E:\Mikey Stuff\Stock Prototype\StockXV\ModelSupport_PStockXV\Class Diagram.txvcls</Transaction>
+  </Transactions>
+</BorlandProject>

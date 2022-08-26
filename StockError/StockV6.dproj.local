@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/21 12:04:17.000.509,E:\Mikey Stuff\Stock Prototype\Stockv4.0\UStockObjects.pas=E:\Mikey Stuff\Stock Prototype\StockText v3.0\UStockObjects.pas</Transaction>
+    <Transaction>2019/01/21 12:04:17.000.509,E:\Mikey Stuff\Stock Prototype\Stockv4.0\UStockObjects.dfm=E:\Mikey Stuff\Stock Prototype\StockText v3.0\UStockObjects.dfm</Transaction>
+    <Transaction>2019/01/21 12:05:13.000.886,E:\Mikey Stuff\Stock Prototype\Stockv4.0\StockV4.dproj=E:\Mikey Stuff\Stock Prototype\StockText v3.0\StockV3.0.dproj</Transaction>
+    <Transaction>2019/01/21 12:07:25.000.793,=E:\Mikey Stuff\Stock Prototype\Stockv4.0\Unit1.pas</Transaction>
+    <Transaction>2019/01/21 12:17:25.000.946,E:\Mikey Stuff\Stock Prototype\Stockv4.0\UStock4.pas=E:\Mikey Stuff\Stock Prototype\Stockv4.0\Unit1.pas</Transaction>
+    <Transaction>2019/01/24 15:47:16.000.885,E:\Mikey Stuff\Stock Prototype\Stockv5.0\UStock5.pas=E:\Mikey Stuff\Stock Prototype\Stockv4.0\UStock4.pas</Transaction>
+    <Transaction>2019/01/24 15:47:49.000.641,E:\Mikey Stuff\Stock Prototype\Stockv5.0\UStockObjectsv5.dfm=E:\Mikey Stuff\Stock Prototype\Stockv4.0\UStockObjects.dfm</Transaction>
+    <Transaction>2019/01/24 15:47:49.000.641,E:\Mikey Stuff\Stock Prototype\Stockv5.0\UStockObjectsv5.pas=E:\Mikey Stuff\Stock Prototype\Stockv4.0\UStockObjects.pas</Transaction>
+    <Transaction>2019/01/24 16:00:41.000.063,E:\Mikey Stuff\Stock Prototype\Stockv5.0\StockV5.dproj=E:\Mikey Stuff\Stock Prototype\Stockv6.0\StockV6.dproj</Transaction>
+    <Transaction>2019/01/24 16:01:41.000.354,E:\Mikey Stuff\Stock Prototype\Stockv5.0\UStock5.pas=E:\Mikey Stuff\Stock Prototype\Stockv6.0\UStock6.pas</Transaction>
+    <Transaction>2019/01/24 16:02:03.000.147,E:\Mikey Stuff\Stock Prototype\Stockv5.0\UStockObjectsv5.pas=E:\Mikey Stuff\Stock Prototype\Stockv6.0\UStockObjectsv6.pas</Transaction>
+    <Transaction>2019/01/24 16:02:03.000.147,E:\Mikey Stuff\Stock Prototype\Stockv5.0\UStockObjectsv5.dfm=E:\Mikey Stuff\Stock Prototype\Stockv6.0\UStockObjectsv6.dfm</Transaction>
+    <Transaction>2019/01/24 16:02:11.000.234,E:\Mikey Stuff\Stock Prototype\Stockv6.0\StockV6.dproj=E:\Mikey Stuff\Stock Prototype\Stockv6.0\StockV6.dproj</Transaction>
+    <Transaction>2019/01/31 00:04:36.000.161,E:\Mikey Stuff\Stock Prototype\StockError\StockV6.dproj=E:\Mikey Stuff\Stock Prototype\Stockv7.0 - Copy\StockV6.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

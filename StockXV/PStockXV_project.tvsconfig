@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.PStockXV" Type="System.String" Value="PStockXV" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.UStockObjectsXV" Type="System.String" Value="UStockObjectsXV" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.UStockXV" Type="System.String" Value="UStockXV" Category="General" IsBrowsable="False" />
+</TgConfig>
